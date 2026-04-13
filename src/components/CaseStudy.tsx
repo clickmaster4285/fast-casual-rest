@@ -31,9 +31,9 @@ const CaseStudy = () => {
     <section ref={ref} className="section-padding" style={{ background: "linear-gradient(180deg, hsl(222 40% 6%) 0%, hsl(222 35% 9%) 100%)" }}>
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <span className="text-accent font-heading text-sm font-semibold tracking-wider uppercase">Case Study</span>
+          <span className="text-primary font-heading text-sm font-semibold tracking-wider uppercase">Case Study</span>
           <h2 className="font-heading text-3xl md:text-5xl font-bold mt-3">
-            Real Results, <span className="text-accent">Real Growth</span>
+            Real Results, <span className="text-primary">Real Growth</span>
           </h2>
         </div>
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -42,28 +42,23 @@ const CaseStudy = () => {
           </div>
           <div className="case-content space-y-8">
             <h3 className="font-heading text-2xl font-bold">
-              How a 3-Branch Café Chain Transformed Operations with Clickmasters
+              How a 3-Branch Café Chain Transformed Operations with ServeX
             </h3>
             <p className="text-muted-foreground font-body">
-              Within 3 months of switching to Clickmasters POS, this fast casual chain saw dramatic improvements
+              Within 3 months of switching to ServeX, this fast casual chain saw dramatic improvements
               across all key metrics — from order speed to revenue growth.
             </p>
             <div className="grid grid-cols-3 gap-4">
               {metrics.map((m) => (
                 <div key={m.label} className="stat-card">
-                  <div className={`text-3xl font-heading font-bold ${m.color} flex items-center justify-center gap-1`}>
+                  <div className={`text-3xl font-heading font-bold  flex items-center justify-center gap-1`}>
                     {m.value} <ArrowUpRight className="w-5 h-5" />
                   </div>
                   <div className="text-xs text-muted-foreground mt-1 font-body">{m.label}</div>
                 </div>
               ))}
             </div>
-            <button
-              onClick={() => document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" })}
-              className="glow-button-orange"
-            >
-              Get Similar Results →
-            </button>
+          
           </div>
         </div>
       </div>

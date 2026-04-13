@@ -34,8 +34,8 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-8">
         <a href="#" className="font-heading text-2xl font-bold tracking-tight">
-          <span className="text-primary">Click</span>
-          <span className="text-foreground">masters</span>
+          <span className="text-primary">Serve</span>
+          <span className="text-foreground">X</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">

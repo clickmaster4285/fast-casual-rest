@@ -57,9 +57,9 @@ const WhyChooseUs = () => {
       </div>
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-16">
-          <span className="text-glow-purple font-heading text-sm font-semibold tracking-wider uppercase">Why Choose Us</span>
+          <span className="text-primary font-heading text-sm font-semibold tracking-wider uppercase">Why Choose Us</span>
           <h2 className="font-heading text-3xl md:text-5xl font-bold mt-3">
-            Built for <span className="text-glow-purple">Performance</span>
+            Built for <span className="text-primary">Performance</span>
           </h2>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

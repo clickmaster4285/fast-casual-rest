@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <a href="#" className="font-heading text-2xl font-bold">
-              <span className="text-primary">Click</span>
-              <span className="text-foreground">masters</span>
+              <span className="text-primary">Serve</span>
+              <span className="text-foreground">X</span>
             </a>
             <p className="text-muted-foreground text-sm font-body mt-3">
               Modern POS solutions for fast casual restaurants.
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-border/20 pt-6 text-center text-xs text-muted-foreground font-body">
-          © {new Date().getFullYear()} Clickmasters. All rights reserved.
+          © {new Date().getFullYear()} ServeX. All rights reserved.
         </div>
       </div>
     </footer>

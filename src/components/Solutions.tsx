@@ -36,7 +36,7 @@ const Solutions = () => {
             From <span className="text-destructive">Chaos</span> to <span className="text-primary">Control</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto mt-4 font-body">
-            Drag the slider to see the difference Clickmasters POS makes
+            Drag the slider to see the difference ServeX makes
           </p>
         </div>
 

@@ -31,9 +31,9 @@ const Services = () => {
     <section id="services" ref={ref} className="section-padding" style={{ background: "linear-gradient(180deg, hsl(222 40% 6%) 0%, hsl(222 35% 9%) 100%)" }}>
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <span className="text-glow-purple font-heading text-sm font-semibold tracking-wider uppercase">Services</span>
+          <span className="text-primary font-heading text-sm font-semibold tracking-wider uppercase">Services</span>
           <h2 className="font-heading text-3xl md:text-5xl font-bold mt-3">
-            End-to-End <span className="text-glow-purple">POS Solutions</span>
+            End-to-End <span className="text-primary">POS Solutions</span>
           </h2>
         </div>
         <div className="grid md:grid-cols-2 gap-6">
@@ -43,7 +43,7 @@ const Services = () => {
                 <img src={s.img} alt={s.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
               </div>
               <div className="p-6 md:w-3/5 flex flex-col justify-center">
-                <s.icon className="w-8 h-8 text-glow-purple mb-3" />
+                <s.icon className="w-8 h-8 text-primary mb-3" />
                 <h3 className="font-heading font-semibold text-xl mb-2">{s.title}</h3>
                 <p className="text-muted-foreground font-body text-sm">{s.desc}</p>
               </div>

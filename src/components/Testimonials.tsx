@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: "Ahmed Al-Rashid",
     role: "Owner, Urban Bites Café",
-    text: "Clickmasters cut our order time in half. Our customers are happier, and our kitchen runs smoother than ever. Best investment we've made.",
+    text: "ServeX cut our order time in half. Our customers are happier, and our kitchen runs smoother than ever. Best investment we've made.",
     img: testimonial1,
     stars: 5,
   },
@@ -30,7 +30,7 @@ const testimonials = [
   {
     name: "David Chen",
     role: "Franchise Director, WokBox",
-    text: "Managing 12 locations used to be a nightmare. Clickmasters analytics give me real-time visibility across all branches.",
+    text: "Managing 12 locations used to be a nightmare. ServeX analytics give me real-time visibility across all branches.",
     img: testimonial1,
     stars: 5,
   },

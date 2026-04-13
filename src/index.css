@@ -82,7 +82,7 @@
     @apply py-24 md:py-32 px-4 md:px-8;
   }
   .gradient-text {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary to-primary;
   }
   .dark-overlay {
     background: linear-gradient(180deg, hsl(var(--surface-1) / 0.7) 0%, hsl(var(--surface-1) / 0.9) 100%);

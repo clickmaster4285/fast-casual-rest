@@ -34,9 +34,9 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="about-text">
-            <span className="text-accent font-heading text-sm font-semibold tracking-wider uppercase">About Us</span>
+            <span className="text-primary font-heading text-sm font-semibold tracking-wider uppercase">About Us</span>
             <h2 className="font-heading text-3xl md:text-4xl font-bold mt-3 mb-6">
-              Building the Future of <span className="text-accent">Fast Casual</span> Dining
+              Building the Future of <span className="text-primary">Fast Casual</span> Dining
             </h2>
             <p className="text-muted-foreground font-body mb-4 leading-relaxed">
               Clickmasters builds modern POS systems designed specifically for fast casual restaurants, helping brands deliver faster service and smoother customer experiences.
@@ -48,10 +48,10 @@ const AboutUs = () => {
               {[
                 { val: "500+", label: "Restaurants" },
                 { val: "15M+", label: "Orders Processed" },
-                { val: "12", label: "Countries" },
+                { val: "15+", label: "Countries" },
               ].map((s) => (
-                <div key={s.label} className="stat-card">
-                  <div className="text-xl font-heading font-bold text-accent">{s.val}</div>
+                <div key={s.label} className="">
+                  <div className="text-2xl font-heading font-bold ">{s.val}</div>
                   <div className="text-xs text-muted-foreground font-body">{s.label}</div>
                 </div>
               ))}

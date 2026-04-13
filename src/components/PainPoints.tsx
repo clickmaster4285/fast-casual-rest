@@ -33,7 +33,7 @@ const PainPoints = () => {
     <section ref={sectionRef} className="section-padding relative overflow-hidden" style={{ background: "linear-gradient(180deg, hsl(222 47% 4%) 0%, hsl(222 40% 6%) 100%)" }}>
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <span className="text-accent font-heading text-sm font-semibold tracking-wider uppercase">The Problem</span>
+          <span className="text-primary font-heading text-sm font-semibold tracking-wider uppercase">The Problem</span>
           <h2 className="font-heading text-3xl md:text-5xl font-bold mt-3">
             Is Your Restaurant <span className="text-destructive">Losing Money</span> Every Day?
           </h2>
@@ -42,7 +42,7 @@ const PainPoints = () => {
           <div className="space-y-6">
             {pains.map((pain) => (
               <div key={pain.title} className="pain-card glass-card p-6 flex items-start gap-4">
-                <div className={`p-3 rounded-lg bg-muted ${pain.color}`}>
+                <div className={`p-3 rounded-lg bg-muted text-destructive`}>
                   <pain.icon className="w-6 h-6" />
                 </div>
                 <div>

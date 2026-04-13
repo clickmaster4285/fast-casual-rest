@@ -32,9 +32,9 @@ const HowItWorks = () => {
     <section id="how-it-works" ref={ref} className="section-padding relative" style={{ background: "linear-gradient(180deg, hsl(222 47% 4%) 0%, hsl(222 40% 6%) 100%)" }}>
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <span className="text-accent font-heading text-sm font-semibold tracking-wider uppercase">How It Works</span>
+          <span className="text-primary font-heading text-sm font-semibold tracking-wider uppercase">How It Works</span>
           <h2 className="font-heading text-3xl md:text-5xl font-bold mt-3">
-            From Order to <span className="text-accent">Ready</span> in Minutes
+            From Order to <span className="text-primary">Ready</span> in Minutes
           </h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
