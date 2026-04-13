@@ -96,7 +96,7 @@
     transform: translateY(-4px);
   }
   .feature-card {
-    @apply glass-card overflow-hidden group cursor-pointer transition-all duration-500;
+    @apply glass-card overflow-hidden cursor-pointer transition-all duration-500;
   }
   .feature-card:hover {
     box-shadow: 0 0 30px hsl(var(--glow-cyan) / 0.15), 0 0 60px hsl(var(--glow-purple) / 0.08);
