@@ -45,9 +45,7 @@ const BlogSection = () => {
               </div>
               <div className="p-6">
                 <h3 className="font-heading font-semibold mb-3 leading-tight">{b.title}</h3>
-                <span className="text-primary text-sm font-heading flex items-center gap-1">
-                  Read More <ArrowRight className="w-4 h-4" />
-                </span>
+               
               </div>
             </div>
           ))}
